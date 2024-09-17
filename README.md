@@ -2,12 +2,6 @@
 An OCR project to extract information about Patient and Prescription details from PDF Documents.
 Also this project involved creation of a backend server which will process data extraction requests.
 
-## Demo
-
-https://github.com/abhijeetk597/medical-data-extraction/assets/138308825/3d5d90e8-2858-4831-b1d5-97a3874f256c
-
-## [Click here to see project presentation](https://youtu.be/xh0livz2tSY)
-
 ## Overview
 1. [What is OCR?](#a1)
 2. [Introduction to Project](#a2)
@@ -73,13 +67,6 @@ Though I have been learning Data Science, then why am I doing this project? Main
 - **Step 6:** To create a Demo of `frontend UI using Streamlit` and connect it with our FastAPI server using Python Requests module.
 ![Project Execution Steps](8.jpg)
 
-## <a name="a4">4. Code Walkthrough</a>
-Explore notebooks and source code of this project.
- - Notebook 1: [Prescription_parser](https://github.com/abhijeetk597/medical-data-extraction/blob/main/Notebooks/01_prescription_parser.ipynb)
- - Notebook 2: [Patient_details_parser](https://github.com/abhijeetk597/medical-data-extraction/blob/main/Notebooks/02_patient_details_parser.ipynb)
- - Backend: [Source code directory](https://github.com/abhijeetk597/medical-data-extraction/tree/main/backend/src)
- - Frontend: [Streamlit app](https://github.com/abhijeetk597/medical-data-extraction/blob/main/frontend/app.py)
-
 ## <a name="a5">5. What did I learn through this project?</a>
 - How to use OCR for real world projects and key image processing concepts like thresholding using `OpenCV2`.
 - Polished up my Python coding skills by using `OOP, code refactoring and modular programming`.
@@ -137,11 +124,4 @@ medical-data-extraction
 └───reference
         tesseract_papar_by_google.pdf
 ```
-## <a name="a8">8. If you are cloning this repository?</a>
-- Install all dependancies from `requirements.txt`
-- For `pdf2image` you need to [download `poppler`](https://github.com/belval/pdf2image?tab=readme-ov-file#how-to-install)
-- Install Tesseract OCR Engine in your PC
-    - [Tesseract installation instrution : Github](https://github.com/tesseract-ocr/tesseract#installing-tesseract)
-    - [Tesseract windows specific instructions: Github](https://github.com/UB-Mannheim/tesseract/wiki)
-- Set required PATHs as per your environment
-> [Demo video to clone and run this project in your machine.](https://youtu.be/UWmOePHzePM)
+
