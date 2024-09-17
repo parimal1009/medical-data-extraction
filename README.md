@@ -50,7 +50,6 @@ For this project we have two types of Medical Documents.
 2. Prescription
 
 We are going to extract some important fields from these documents.
-![4.jpg](4.jpg)
 
 ### Why this project?
 Though I have been learning Data Science, then why am I doing this project? Mainly there are 3 reasons.
@@ -65,7 +64,7 @@ Though I have been learning Data Science, then why am I doing this project? Main
 - **Step 4:** Finding useful information from text using `RegEx` and returning in JSON format
 - **Step 5:** Creating a `FastAPI backend server` which serves data extraction requests by accepting a pdf_file, file_format and returning a JSON object.
 - **Step 6:** To create a Demo of `frontend UI using Streamlit` and connect it with our FastAPI server using Python Requests module.
-![Project Execution Steps](8.jpg)
+![Project Execution Steps](
 
 ## <a name="a5">5. What did I learn through this project?</a>
 - How to use OCR for real world projects and key image processing concepts like thresholding using `OpenCV2`.
