@@ -2,6 +2,19 @@
 An OCR project to extract information about Patient and Prescription details from PDF Documents.
 Also this project involved creation of a backend server which will process data extraction requests.
 
+## Landing Page
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a46de14c-7d3e-4dc1-8489-a40c2d1ce442" alt="Landing Page" width="800"/>
+</div>
+
+## Results Page
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/69522dcc-74b7-403d-968e-3f0c8707ed02" alt="Page 1" width="400"/>
+  <img src="https://github.com/user-attachments/assets/341a7449-4bb5-4ae2-aee3-c29d57b88653" alt="Page 2" width="400"/>
+</div>
+
 ## Overview
 1. [What is OCR?](#a1)
 2. [Introduction to Project](#a2)
