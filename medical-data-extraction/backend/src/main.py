@@ -12,7 +12,18 @@ def extract_from_doc(
     file_format: str = Form(...)
 ):
     content = file.file.read()
-    FILE_PATH = "backend/uploads/" + str(uuid.uuid4()) + ".pdf"
+    # FILE_PATH = "backend/uploads/" + str(uuid.uuid4()) + ".pdf"
+    # FILE_PATH = "backend/uploads/8803aa35-fb35-4517-b1eb-cccf2696bf9c.pdf"
+    UPLOAD_DIR = os.path.join(os.path.dirname(__file__), "..", "uploads")
+    if not os.path.exists(UPLOAD_DIR):
+        os.makedirs(UPLOAD_DIR)
+
+    # Generate unique file path
+    FILE_PATH = os.path.join(UPLOAD_DIR, str(uuid.uuid4()) + ".pdf")
+
+    # Log the absolute file path for debugging
+    print(f"File path: {FILE_PATH}")
+
     with open(FILE_PATH, "wb") as f:
         f.write(content)
 
