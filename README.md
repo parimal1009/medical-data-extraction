@@ -11,8 +11,8 @@ Also this project involved creation of a backend server which will process data 
 ## Results Page
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/69522dcc-74b7-403d-968e-3f0c8707ed02" alt="Page 1" width="500"/>
-  <img src="https://github.com/user-attachments/assets/341a7449-4bb5-4ae2-aee3-c29d57b88653" alt="Page 2" width="500"/>
+  <img src="https://github.com/user-attachments/assets/69522dcc-74b7-403d-968e-3f0c8707ed02" alt="Page 1" width="400"/>
+  <img src="https://github.com/user-attachments/assets/341a7449-4bb5-4ae2-aee3-c29d57b88653" alt="Page 2" width="400"/>
 </div>
 
 ## Overview
