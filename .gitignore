@@ -1,0 +1,5 @@
+# Ignore everything in the output folder
+medical-data-extraction/backend/src/output/*
+
+# Ignore everything in the uploads folder
+medical-data-extraction/backend/uploads/*
