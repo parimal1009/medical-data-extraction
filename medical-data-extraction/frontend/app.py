@@ -192,6 +192,7 @@ elif st.session_state['page'] == "Process":
 
             if response.status_code == 200:
                 excel_file = io.BytesIO(response.content)
+                excel_file.seek(0)
                 df = pd.read_excel(excel_file)
 
                 # Ensure all expected columns are present
