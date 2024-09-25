@@ -43,10 +43,10 @@ def extract_from_doc(
     except Exception as e:
         return {"error": str(e)}
 
-    # finally:
-    #     # Clean up the uploaded PDF after extraction
-    #     if os.path.exists(FILE_PATH):
-    #         os.remove(FILE_PATH)
+    finally:
+        # Clean up the uploaded PDF after extraction
+        if os.path.exists(FILE_PATH):
+            os.remove(FILE_PATH)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
