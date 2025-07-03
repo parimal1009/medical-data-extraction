@@ -1,0 +1,11 @@
+streamlit
+requests
+pdf2image
+pytesseract
+pandas
+streamlit-lottie
+streamlit-option-menu
+fastapi
+uvicorn
+numpy
+opencv-python
